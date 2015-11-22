@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery xmlns="http://dryuf.org/schema/net/dryuf/comp/gallery/xml/gallery/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+		http://dryuf.org/schema/net/dryuf/comp/gallery/xml/gallery/ http://www.znj.cz/schema/net/dryuf/comp/gallery/xml/gallery.xsd
+	">
+	<locations>
+		<location id="let-a-mesto-abu-dhabi" store="" thumb="" />
+	</locations>
+	<sections multi="true">
+		<section id="let-a-mesto-abu-dhabi" location="let-a-mesto-abu-dhabi">
+			<title>Abu Dhabi</title>
+			<description>First Description</description>
+			<records>
+				<record file="img_5989.jpg">
+					<description>first picture</description>
+				</record>
+				<record file="img_5993.jpg">
+					<description>second picture</description>
+				</record>
+			</records>
+		</section>
+		<section id="ferrari-world" location="ferrari-world">
+			<title>Ferrari World</title>
+			<description>Visiting Ferrari World</description>
+			<records>
+				<record file="20111113_194931.jpg">
+					<description>Formula Rosa</description>
+				</record>
+				<record file="20111113_201204.jpg" recordType="picture">
+					<description>Ferrari World - entrance gate.</description>
+				</record>
+			</records>
+		</section>
+		<section id="videos" location="videos">
+			<title>Videos</title>
+			<description>Videos description</description>
+			<records>
+				<record file="bum.jpg" recordType="video">
+					<description>bum</description>
+					<sources>
+						<source file="bum.mp4" mimeType="video/mp4" />
+					</sources>
+				</record>
+			</records>
+		</section>
+	</sections>
+</gallery>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context		http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx		http://www.springframework.org/schema/tx/spring-tx.xsd
+	">
+
+	<bean id="forumHeaderDao" class="net.dryuf.comp.forum.jpadao.ForumHeaderDaoJpa" autowire="byName" />
+	<bean id="forumRecordDao" class="net.dryuf.comp.forum.jpadao.ForumRecordDaoJpa" autowire="byName" />
+
+	<bean id="gallerySourceDao" class="net.dryuf.comp.gallery.jpadao.GallerySourceDaoJpa" autowire="byName" />
+	<bean id="galleryHeaderDao" class="net.dryuf.comp.gallery.jpadao.GalleryHeaderDaoJpa" autowire="byName" />
+	<bean id="gallerySectionDao" class="net.dryuf.comp.gallery.jpadao.GallerySectionDaoJpa" autowire="byName" />
+	<bean id="galleryRecordDao" class="net.dryuf.comp.gallery.jpadao.GalleryRecordDaoJpa" autowire="byName" />
+
+	<bean id="ratingHeaderDao" class="net.dryuf.comp.rating.jpadao.RatingHeaderDaoJpa" autowire="byName" />
+	<bean id="ratingRecordDao" class="net.dryuf.comp.rating.jpadao.RatingRecordDaoJpa" autowire="byName" />
+
+	<bean id="pollGroupDao" class="net.dryuf.comp.poll.jpadao.PollGroupDaoJpa" autowire="byName" />
+	<bean id="pollHeaderDao" class="net.dryuf.comp.poll.jpadao.PollHeaderDaoJpa" autowire="byName" />
+	<bean id="pollOptionDao" class="net.dryuf.comp.poll.jpadao.PollOptionDaoJpa" autowire="byName" />
+	<bean id="pollRecordDao" class="net.dryuf.comp.poll.jpadao.PollRecordDaoJpa" autowire="byName" />
+
+</beans>

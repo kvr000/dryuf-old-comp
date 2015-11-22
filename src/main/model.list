@@ -1,0 +1,33 @@
+target/_model		net.dryuf.comp.devel.DevelFile				entbean
+target/_model		net.dryuf.comp.devel.form.DevelAddFileForm		entbean
+target/_model		net.dryuf.comp.devel.form.DevelDryufSqlForm		entbean
+
+target/_model		net.dryuf.comp.forum.ForumHeader			entbean
+target/_model		net.dryuf.comp.forum.ForumRecord			entbean
+
+target/_model		net.dryuf.comp.forum.form.GuestbookForm			entbean
+target/_model		net.dryuf.comp.forum.form.SimpleForumForm		entbean
+
+target/_model		net.dryuf.comp.gallery.GalleryLocation			entbean
+target/_model		net.dryuf.comp.gallery.GalleryHeader			entbean
+target/_model		net.dryuf.comp.gallery.GallerySection			entbean
+target/_model		net.dryuf.comp.gallery.GalleryRecord			entbean
+target/_model		net.dryuf.comp.gallery.GallerySource			entbean
+
+target/_model		net.dryuf.comp.gallery.form.GalleryAddForm		entbean
+
+target/_model		net.dryuf.comp.poll.PollGroup				entbean
+target/_model		net.dryuf.comp.poll.PollHeader				entbean
+target/_model		net.dryuf.comp.poll.PollOption				entbean
+target/_model		net.dryuf.comp.poll.PollRecord				entbean
+
+target/_model		net.dryuf.comp.rating.RatingHeader			entbean
+target/_model		net.dryuf.comp.rating.RatingRecord			entbean
+
+target/_model		net.dryuf.comp.wedding.WeddingGiftsHeader		entbean
+target/_model		net.dryuf.comp.wedding.WeddingGiftsGift			entbean
+target/_model		net.dryuf.comp.wedding.form.WeddingGiftsCancelForm	entbean
+target/_model		net.dryuf.comp.wedding.form.WeddingGiftsCoordinatorForm	entbean
+target/_model		net.dryuf.comp.wedding.form.WeddingGiftsProposeForm	entbean
+target/_model		net.dryuf.comp.wedding.form.WeddingGiftsReserveForm	entbean
+

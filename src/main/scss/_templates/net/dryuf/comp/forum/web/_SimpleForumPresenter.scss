@@ -1,0 +1,51 @@
+.net-dryuf-comp-forum-web-SimpleForumPresenter
+{
+	border:				0px solid;
+
+	.add
+	{
+	}
+
+	.noComments
+	{
+	}
+
+	.comments
+	{
+		@mixin header_generic()
+		{
+			.author
+			{
+				font-weight:			bold;
+			}
+
+			.addTime
+			{
+			}
+		}
+
+		.header-even
+		{
+			@include header_generic();
+		}
+
+		.header-odd
+		{
+			@include header_generic();
+		}
+
+		@mixin row_generic()
+		{
+		}
+
+		.row-even
+		{
+			@include row_generic()
+		}
+
+		.row-odd
+		{
+			@include row_generic()
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.net-dryuf-comp-poll-web-PollPresenter {
+	border:			1px solid;
+
+	.head {
+		text-align:		left;
+	}
+
+	.option {
+	}
+
+	.barcolumn {
+		width:			200px;
+
+		.bar {
+			background-color:	darken($background_color, 50%);
+			overflow:		hidden;
+			height:			20px;
+		}
+	}
+
+	.percent {
+		text-align:		right;
+	}
+
+	.total {
+		text-align:		right;
+	}
+}
