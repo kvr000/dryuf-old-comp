@@ -107,7 +107,7 @@ public class GuestbookFormPresenter extends net.dryuf.mvp.BeanFormPresenter<Gues
 		String name = backing.getName();
 		String email = backing.getEmail();
 		String webpage = backing.getWebpage();
-		String content = backing.getContent();
+		String content = backing.getContent().replaceAll("\r\n", "\n");
 		String ids = encodeIdentity(name, email, webpage);
 		ForumRecord forumRecord = new ForumRecord();
 		forumRecord.setContent(content);
