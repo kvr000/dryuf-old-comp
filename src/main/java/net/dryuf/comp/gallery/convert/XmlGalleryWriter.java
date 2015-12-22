@@ -37,7 +37,7 @@ package net.dryuf.comp.gallery.convert;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import org.apache.commons.codec.Charsets;
+import java.nio.charset.StandardCharsets;
 
 import net.dryuf.core.CallerContext;
 import net.dryuf.core.Options;
@@ -55,7 +55,7 @@ public class XmlGalleryWriter extends java.lang.Object
 	public void			writeRaw(String s)
 	{
 		try {
-			out.write(s.getBytes(Charsets.UTF_8));
+			out.write(s.getBytes(StandardCharsets.UTF_8));
 		}
 		catch (IOException e) {
 			throw new RuntimeException(e);
