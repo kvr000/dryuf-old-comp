@@ -87,7 +87,7 @@ public class Digikam2GalleryCommand extends AbstractCommand
 	{
 		return commandRunner.reportUsage(
 				reason,
-				"Options: -f dbfile [-m] [-O] -r root -g gallery\n"+
+				"Options: -f dbfile [-m] [-O] -p root -g gallery\n"+
 				"	-f db-file		path to digikam database\n"+
 				"	-p gallery-root		gallery root\n"+
 				"	-g gallery-name		gallery name\n"+
