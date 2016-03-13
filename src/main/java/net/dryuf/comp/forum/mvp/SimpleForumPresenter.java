@@ -111,8 +111,8 @@ public class SimpleForumPresenter extends net.dryuf.mvp.ChildPresenter
 				this.outputFormat("<table class='comments'>\n", net.dryuf.core.Dryuf.dashClassname(this.cssClass));
 				for (EntityHolder<ForumRecord> recordHolder: comments) {
 					ForumRecord record = recordHolder.getEntity();
-					this.outputFormat("<tr class='header-%s'><td><span class='author'>%K</span>, <span class='addedTime'>%K</span></td></tr><tr class='row-%s'><td class='content'>%S</td></tr>\n",
-						even ? "even" : "odd", userAccountTextual, record.getUserId(), datetimeTextual, record.getCreated(), even ? "even" : "odd", record.getContent());
+					this.outputFormat("<tr class='header'><td><span class='author'>%K</span>, <span class='addedTime'>%K</span></td></tr><tr class='row'><td class='content'>%S</td></tr>\n",
+						userAccountTextual, record.getUserId(), datetimeTextual, record.getCreated(), record.getContent());
 				}
 				this.outputFormat("</table>\n");
 			}

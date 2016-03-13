@@ -12,8 +12,10 @@
 
 	.comments
 	{
-		@mixin header_generic()
+		.header
 		{
+			background-color:		darken($background_color, 2%);
+
 			.author
 			{
 				font-weight:			bold;
@@ -24,28 +26,8 @@
 			}
 		}
 
-		.header-even
+		.row
 		{
-			@include header_generic();
-		}
-
-		.header-odd
-		{
-			@include header_generic();
-		}
-
-		@mixin row_generic()
-		{
-		}
-
-		.row-even
-		{
-			@include row_generic()
-		}
-
-		.row-odd
-		{
-			@include row_generic()
 		}
 	}
 }
