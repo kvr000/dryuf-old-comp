@@ -34,7 +34,7 @@
 
 		<dryuf.version>0.0.1</dryuf.version>
 
-		<junit.version>4.11</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<xmlunit.version>1.5</xmlunit.version>
 	</properties>
 
