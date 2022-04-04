@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.dryuf</groupId>
-	<artifactId>dryuf-comp</artifactId>
+	<artifactId>dryuf-old-comp</artifactId>
 	<version>0.0.1</version>
-	<name>dryuf-comp</name>
+	<name>dryuf-old-comp</name>
 	<description>dryuf comp</description>
 	<packaging>jar</packaging>
 
@@ -138,11 +138,11 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>net.dryuf</groupId>
-									<artifactId>dryuf-core</artifactId>
+									<artifactId>dryuf-old-core</artifactId>
 									<version>${dryuf.version}</version>
 									<type>jar</type>
 									<overWrite>false</overWrite>
-									<outputDirectory>${project.build.directory}/net.dryuf-core</outputDirectory>
+									<outputDirectory>${project.build.directory}/net.dryuf-old-core</outputDirectory>
 									<includes>design/dryuf/dryuf.xmi</includes>
 								</artifactItem>
 							</artifactItems>
@@ -168,7 +168,7 @@
 								<argument>${project.build.directory}/net.dryuf-uml/dryuf_splitxmi</argument>
 								<argument>-t</argument>
 								<argument>${project.build.directory}/_model/_gen.touch</argument>
-								<argument>${project.build.directory}/net.dryuf-core/design/dryuf/dryuf.xmi</argument>
+								<argument>${project.build.directory}/net.dryuf-old-core/design/dryuf/dryuf.xmi</argument>
 								<argument>${project.build.directory}/_model/</argument>
 							</arguments>
 						</configuration>
@@ -362,13 +362,6 @@
 		</dependency>
 		-->
 		<dependency>
-			<groupId>com.sun</groupId>
-			<artifactId>tools</artifactId>
-			<version>1.7.0</version>
-			<systemPath>${java.home}/../lib/tools.jar</systemPath>
-			<scope>system</scope>
-		</dependency>
-		<dependency>
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
@@ -475,12 +468,12 @@
 
 		<dependency>
 			<groupId>net.dryuf</groupId>
-			<artifactId>dryuf-core</artifactId>
+			<artifactId>dryuf-old-core</artifactId>
 			<version>${dryuf.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>net.dryuf</groupId>
-			<artifactId>dryuf-mvp</artifactId>
+			<artifactId>dryuf-old-mvp</artifactId>
 			<version>${dryuf.version}</version>
 		</dependency>
 
